@@ -62,7 +62,7 @@ The function works in 3 steps:
 
 The Lambda function uses a dedicated IAM role with least-privilege permissions — only the access it needs, nothing more.
 
-![IAM Role](screenshots/iam-role.png)
+![IAM Role](iam-role.png)
 
 **Policies attached:**
 - `AWSLambdaBasicExecutionRole` — allows Lambda to write logs to CloudWatch
@@ -74,31 +74,31 @@ The Lambda function uses a dedicated IAM role with least-privilege permissions �
 ## 📸 Project Screenshots
 
 ### Lambda Function Overview
-![Lambda Function](screenshots/lambda-function.png)
+![Lambda Function](lambda-function.png)
 
 ### Lambda Code + Successful Execution
-![Lambda Code](screenshots/lambda-code-execution.png)
+![Lambda Code](lambda-code-execution.png)
 
 ### Before: Stale Snapshot Exists
 Snapshot `snap-04ac654fd5ae6daca` (8 GiB, description: "demo") with no active EC2 association.
 
-![Before](screenshots/before-snapshot.png)
+![Before](before-snapshot.png)
 
 ### Lambda Execution Result
 Status: **Succeeded**
 Log confirms: `Deleted EBS snapshot snap-04ac654fd5ae6daca as its associated volume was not found.`
 
-![Execution Result](screenshots/execution-result.png)
+![Execution Result](execution-result.png)
 
 ### CloudWatch Logs
 Full execution trace showing the snapshot identification and deletion event.
 
-![CloudWatch Logs](screenshots/cloudwatch-logs.png)
+![CloudWatch Logs](cloudwatch-logs.png)
 
 ### After: Snapshot Deleted
 `"You currently have no snapshots in this Region."` — stale snapshot successfully removed.
 
-![After](screenshots/after-snapshot.png)
+![After](after-snapshot.png)
 
 ---
 
@@ -169,7 +169,7 @@ Automating this cleanup across a production AWS account with dozens of stale sna
 
 **Saif Attar**
 - LinkedIn: [linkedin.com/in/saif-attar-b15775346](https://linkedin.com/in/saif-attar-b15775346)
-- GitHub: [github.com/yourusername](https://github.com/yourusername)
+- GitHub: [github.com/yourusername](https://github.com/SaifAttar003)
 
 ---
 
