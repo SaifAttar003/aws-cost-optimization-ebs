@@ -169,7 +169,7 @@ Automating this cleanup across a production AWS account with dozens of stale sna
 
 **Saif Attar**
 - LinkedIn: [linkedin.com/in/saif-attar-b15775346](https://linkedin.com/in/saif-attar-b15775346)
-- GitHub: [github.com/yourusername](https://github.com/SaifAttar003)
+- GitHub: [github.com/SaifAttar003](https://github.com/SaifAttar003)
 
 ---
 
